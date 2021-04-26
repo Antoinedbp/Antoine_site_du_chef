@@ -1,0 +1,82 @@
+.monHeader{
+
+    nav{
+        .collapse{
+            @include media-breakpoint-down(md){
+                background: #000000ab;
+            }
+            
+        }
+        .navbar-nav{
+            display: flex;
+            width: 40%;
+            height: max-content;
+            .nav-item{            
+                border-top: white 3px solid;
+                border-bottom: white 2px solid;
+                width: 50%;
+
+                .nav-link:hover{
+                    background-color: #C12D3F;
+                    border-radius: 0%;
+                }
+            }
+        }
+    }
+    #carousel{
+
+        
+            
+        .carousel-caption{
+            padding-bottom: 25%;
+            h1{
+                font-family: "courgette";
+                margin-bottom: 30px ;
+
+                .occasion{
+                    text-transform: uppercase;
+                        }
+                .taste{
+                    text-transform: uppercase;
+                    color:#B32A3A;
+                        }
+                .makes{
+                    font-size: 45px;
+                        }
+                .remember{
+                    font-size: 45px;
+                        }
+            }
+            .button-header{
+                
+                
+                .button-gris{
+                    background-color: rgba(255, 255, 255, 0.767);
+                    border-radius: 30px;
+                }
+                .button-gris:hover{
+                    background-color: #C12D3F;
+                    color: white;
+                }
+                .button-rouge{
+                    background-color: #C12D3F;
+                    color: white;
+                    border-radius: 30px;
+                }
+                .button-rouge:hover{
+                    background-color: rgba(255, 255, 255, 0.767);
+                    color: black;
+                }
+            }
+        }
+        .carousel-inner{
+            .carousel-item{
+                .img-c{
+                    filter: brightness(30%);
+                    background-size: cover;
+                }
+            }
+        }
+        
+    }
+}
