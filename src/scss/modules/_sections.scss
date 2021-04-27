@@ -1,15 +1,106 @@
 .sec-1{
     background-image: url(../img/main_bg.jpg);
     background-size: cover;
-    height: 110vh;
+    height: 100rem;
     .separation-img{
         background-size: contain;
         img{
             width: 8.33%;
-            height: 12px;
+            height: 20px;
             display: block;
             float: left;
-            background-color: black;
+            background-color: #464647;
         }
     }
+    .menu-G{
+        .menu{
+            .ourStory{
+                .titreStory{
+                    .storyCentre{
+                        .titre-story{
+                            font-family: "courgette";
+                            .our{
+                                color: #B32A3A;
+                                font-size: 130%;
+                            }
+                        }
+                    }
+                }
+            }
+            .titreMenu-list{
+                font-family: "courgette";
+                .titre-story{
+                    .our{
+                        color: #B32A3A;
+                        font-size: 130%;
+                    }
+                }
+            }
+            #menu{
+                width: 100%;
+                .col-3{
+                    border-right: 3px solid $clair;
+                    a{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border-bottom: 3px solid $clair;
+                        
+                        i{
+                            font-size: 400%;
+                            color: grey;
+                        }
+                        h3{
+                            color: black;
+                            font-family: "courgette";
+                        
+                        }
+                    }
+                    .nav-linkl:active{
+                        color: #B32A3A;
+                    }
+                }
+                .col-xl-6{
+                    border-bottom: 3px solid $clair;
+                    .menu-img1{
+                        border: rgb(207, 205, 205) 5px solid;
+                        border-radius: 50%;
+                        width: 20%;
+                    }
+                    .monPrix{
+                        color: #B32A3A;
+                        background-color: $clair;
+                        font-size: 120%;
+                    } 
+                }    
+            }
+        }
+    }
+}
+.sec-2{
+    .divChef{
+        background-color: #080605;
+        .divtitreChef{
+            font-family: "courgette";
+            .titreChef{
+                .our{
+                    color: #B32A3A;
+                    font-size: 130%;
+                }
+            }
+        }
+        .divimgChef{
+            .chef1{
+                .imgChef{
+                    border-bottom: grey 2px solid;
+                }
+            }
+        }
+    }
+}
+.sec-3{
+    background-image: url(../img/main_bg.jpg);
+    background-size: cover;
+    height: 100rem;
 }
