@@ -17208,5 +17208,149 @@ readers do not read off random characters that represent icons */
 .sec-5 .basContact .divRouge .rougeBas i {
   font-size: 2.5rem;
 }
+.sec-5 .separation-img {
+  background-size: contain;
+  padding-bottom: 0;
+  width: 100%;
+  margin-top: 40px;
+}
+.sec-5 .separation-img img {
+  width: 8.33%;
+  height: 20px;
+  display: block;
+  float: left;
+  background-color: #0B0706;
+}
+
+footer {
+  background-image: url(../img/footer_background.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+}
+footer .divFooter {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+footer .divFooter .aboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 13rem;
+  margin-right: 30px;
+}
+footer .divFooter .aboutUs .divSociale {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+footer .divFooter .instagram {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 13rem;
+}
+footer .divFooter .instagram .imgInsta {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .divFooter .popular {
+  width: 30%;
+  height: 13rem;
+  padding-left: 20px;
+}
+footer .divFooter .popular .tags .restaurant {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 23%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+footer .divFooter .popular .tags .responsive {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 30%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+  margin-right: 0.7rem;
+}
+footer .divFooter .popular .tags .hotel {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 18%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+}
+footer .divFooter .popular .tags .tagBlog {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 25%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+  margin-top: 0.8rem;
+  margin-right: 0.7rem;
+}
+footer .divFooter .popular .tags .seo {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 16%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+  margin-right: 0.7rem;
+}
+footer .divFooter .popular .tags .cuisine {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 23%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+}
+footer .divFooter .popular .tags .graphic {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 19%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+  margin-top: 0.8rem;
+  margin-right: 0.7rem;
+}
+footer .divFooter .popular .tags .food {
+  background-color: #B32A3A;
+  color: white;
+  font-size: 0.8rem;
+  width: 17%;
+  height: 2.5rem;
+  border: white 1px solid;
+  border-radius: 30px;
+}
+footer .divfooterRouge {
+  width: 100%;
+  background-color: #B32A3A;
+  height: 10rem;
+}
+footer .divfooterRouge .pFooter {
+  color: #B32A3A;
+}
 
 /*# sourceMappingURL=app.css.map */
