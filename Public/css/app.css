@@ -7388,6 +7388,18 @@ button.bg-dark:focus {
   width: 20% !important;
 }
 
+.w-27 {
+  width: 27% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
 .w-40 {
   width: 40% !important;
 }
@@ -7462,6 +7474,18 @@ button.bg-dark:focus {
 
 .h-20 {
   height: 20% !important;
+}
+
+.h-27 {
+  height: 27% !important;
+}
+
+.h-30 {
+  height: 30% !important;
+}
+
+.h-35 {
+  height: 35% !important;
 }
 
 .h-40 {
@@ -17144,6 +17168,45 @@ readers do not read off random characters that represent icons */
 }
 .sec-4 .divClient .basClient .divbasClient .textClient .manager {
   color: #B32A3A;
+}
+
+.sec-5 {
+  background-image: url(../img/main_bg.jpg);
+  background-size: cover;
+  height: 40rem;
+}
+.sec-5 .divtitreContact .titreContact {
+  font-family: "courgette";
+}
+.sec-5 .divtitreContact .titreContact .our {
+  color: #B32A3A;
+  font-size: 130%;
+}
+.sec-5 .basContact .divRouge {
+  background-color: #B32A3A;
+  height: 22rem;
+  border: none;
+  border-radius: 25px;
+}
+.sec-5 .basContact .divRouge .rougeHaut {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.sec-5 .basContact .divRouge .rougeHaut i {
+  font-size: 2.5rem;
+}
+.sec-5 .basContact .divRouge .rougeMiddle {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.sec-5 .basContact .divRouge .rougeMiddle i {
+  font-size: 2.5rem;
+}
+.sec-5 .basContact .divRouge .rougeBas {
+  color: white;
+}
+.sec-5 .basContact .divRouge .rougeBas i {
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
