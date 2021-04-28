@@ -7448,6 +7448,14 @@ button.bg-dark:focus {
   width: 95% !important;
 }
 
+.w-96 {
+  width: 96% !important;
+}
+
+.w-97 {
+  width: 97% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7534,6 +7542,14 @@ button.bg-dark:focus {
 
 .h-95 {
   height: 95% !important;
+}
+
+.h-96 {
+  height: 96% !important;
+}
+
+.h-97 {
+  height: 97% !important;
 }
 
 .mw-100 {
@@ -16903,6 +16919,9 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.monHeader nav {
+  position: sticky;
+}
 @media (max-width: 991.98px) {
   .monHeader nav .collapse {
     background: #000000ab;

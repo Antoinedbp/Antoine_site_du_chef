@@ -1,6 +1,7 @@
 .monHeader{
 
     nav{
+        position: sticky;
         .collapse{
             @include media-breakpoint-down(md){
                 background: #000000ab;
