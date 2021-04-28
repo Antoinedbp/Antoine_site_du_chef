@@ -17079,6 +17079,12 @@ readers do not read off random characters that represent icons */
   border-radius: 15px;
   height: 3rem;
 }
+.sec-3 .Book .divBook .formular .divFormular .row .column .form-select {
+  width: 120%;
+  border: none;
+  border-radius: 15px;
+  height: 3rem;
+}
 .sec-3 .Book .divBook .divbookBas button {
   background-color: #B32A3A;
   color: white;
