@@ -57,7 +57,8 @@
                         
                         }
                     }
-                    .nav-linkl:active{
+                    .nav-link:active{
+                        background-color: #B32A3A;
                         color: #B32A3A;
                     }
                 }
@@ -79,8 +80,9 @@
     }
 }
 .sec-2{
+    background-image: url(../img/team_background.jpg);
+    background-size: cover;
     .divChef{
-        background-color: #080605;
         .divtitreChef{
             font-family: "courgette";
             .titreChef{
@@ -222,10 +224,42 @@
                     border: none;
                     border-radius: 30px;
                     height: 3rem;
-                    width: 20%;
+                    width: 15%;
 
                 }
             }
         }
     }    
+}
+.sec-4{
+    background-image: url(../img/testimonials_background.jpg);
+    background-size: cover;
+    height: 25rem;
+    .divClient{
+        .divtitreClient{
+            .titreClient{
+                font-family: "courgette";
+                .our{
+                    color: #B32A3A;
+                    font-size: 130%;
+                }
+            }
+        }
+        .basClient{
+            .divbasClient{
+                .imgClient{
+                    height: 10rem;
+                    border: rgb(224, 221, 221) 5px solid;
+                    border-radius: 50%;
+                }
+                .textClient{
+                    border: 1px rgb(179, 179, 179) solid;
+                    border-radius: 15px;
+                    .manager{
+                        color: #B32A3A;
+                    }
+                }
+            }
+        }
+    }
 }

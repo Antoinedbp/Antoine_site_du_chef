@@ -16990,7 +16990,8 @@ readers do not read off random characters that represent icons */
   color: black;
   font-family: "courgette";
 }
-.sec-1 .menu-G .menu #menu .col-3 .nav-linkl:active {
+.sec-1 .menu-G .menu #menu .col-3 .nav-link:active {
+  background-color: #B32A3A;
   color: #B32A3A;
 }
 .sec-1 .menu-G .menu #menu .col-xl-6 {
@@ -17007,8 +17008,9 @@ readers do not read off random characters that represent icons */
   font-size: 120%;
 }
 
-.sec-2 .divChef {
-  background-color: #080605;
+.sec-2 {
+  background-image: url(../img/team_background.jpg);
+  background-size: cover;
 }
 .sec-2 .divChef .divtitreChef {
   font-family: "courgette";
@@ -17116,7 +17118,32 @@ readers do not read off random characters that represent icons */
   border: none;
   border-radius: 30px;
   height: 3rem;
-  width: 20%;
+  width: 15%;
+}
+
+.sec-4 {
+  background-image: url(../img/testimonials_background.jpg);
+  background-size: cover;
+  height: 25rem;
+}
+.sec-4 .divClient .divtitreClient .titreClient {
+  font-family: "courgette";
+}
+.sec-4 .divClient .divtitreClient .titreClient .our {
+  color: #B32A3A;
+  font-size: 130%;
+}
+.sec-4 .divClient .basClient .divbasClient .imgClient {
+  height: 10rem;
+  border: #e0dddd 5px solid;
+  border-radius: 50%;
+}
+.sec-4 .divClient .basClient .divbasClient .textClient {
+  border: 1px #b3b3b3 solid;
+  border-radius: 15px;
+}
+.sec-4 .divClient .basClient .divbasClient .textClient .manager {
+  color: #B32A3A;
 }
 
 /*# sourceMappingURL=app.css.map */
