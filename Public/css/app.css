@@ -7432,6 +7432,10 @@ button.bg-dark:focus {
   width: 90% !important;
 }
 
+.w-95 {
+  width: 95% !important;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7502,6 +7506,10 @@ button.bg-dark:focus {
 
 .h-90 {
   height: 90% !important;
+}
+
+.h-95 {
+  height: 95% !important;
 }
 
 .mw-100 {
@@ -17016,7 +17024,99 @@ readers do not read off random characters that represent icons */
 .sec-3 {
   background-image: url(../img/main_bg.jpg);
   background-size: cover;
-  height: 100rem;
+  height: 106rem;
+}
+.sec-3 .Book .divBook .divbookHaut .ourBook .titreBook .bookCentre .titre-book {
+  font-family: "courgette";
+}
+.sec-3 .Book .divBook .divbookHaut .ourBook .titreBook .bookCentre .titre-book .our {
+  color: #B32A3A;
+  font-size: 130%;
+}
+.sec-3 .Book .divBook .formular {
+  background-image: url(../img/book_table_bg.jpg);
+  background-size: cover;
+  height: 40rem;
+  width: 60%;
+  border: none;
+  border-radius: 20px;
+}
+.sec-3 .Book .divBook .formular .formularHaut {
+  font-size: 1.5rem;
+}
+.sec-3 .Book .divBook .formular .formularHaut p span {
+  font-size: 1.8 rem;
+}
+.sec-3 .Book .divBook .formular .divFormular .row .column .form-control {
+  width: 120%;
+  border: none;
+  border-radius: 15px;
+  height: 3rem;
+}
+.sec-3 .Book .divBook .divbookBas button {
+  background-color: #B32A3A;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  height: 3rem;
+  width: 150%;
+}
+.sec-3 .Book .divBook .titreBlog .titre-blog {
+  font-family: "courgette";
+}
+.sec-3 .Book .divBook .titreBlog .titre-blog .our {
+  color: #B32A3A;
+  font-size: 130%;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .divimgBlog {
+  position: relative;
+  width: 100%;
+  height: 19rem;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .divimgBlog .imgBlog {
+  border: #e0dddd 5px solid;
+  border-radius: 25px;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .divimgBlog .pBlog {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 75%;
+  height: 3rem;
+  bottom: 0;
+  background-color: #B32A3A;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .divimgBlog .pBlog span {
+  font-size: 1.4rem;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .pBlog {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+  height: 2.5rem;
+  background-color: #B32A3A;
+  font-size: 1.1rem;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .pBlog span {
+  font-size: 1.4rem;
+}
+.sec-3 .Book .divBook .divcardsBlog .divCards .cards .petitTitre {
+  display: flex;
+  font-size: large;
+}
+.sec-3 .Book .divBook .divcardsBlog .know {
+  background-color: #B32A3A;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  height: 3rem;
+  width: 20%;
 }
 
 /*# sourceMappingURL=app.css.map */

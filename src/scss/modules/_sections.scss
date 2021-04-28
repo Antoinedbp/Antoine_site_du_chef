@@ -102,5 +102,130 @@
 .sec-3{
     background-image: url(../img/main_bg.jpg);
     background-size: cover;
-    height: 100rem;
+    height: 106rem;
+    .Book{
+        .divBook{
+            .divbookHaut{
+                .ourBook{
+                    .titreBook{
+                        .bookCentre{
+                            .titre-book{
+                                font-family: "courgette";
+                                .our{
+                                    color: #B32A3A;
+                                    font-size: 130%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .formular{
+                background-image: url(../img/book_table_bg.jpg);
+                background-size: cover;
+                height: 40rem;
+                width: 60%;
+                border: none;
+                border-radius: 20px;
+                .formularHaut{
+                    font-size: 1.5rem;
+                    p{
+                        span{
+                            font-size: 1.8
+                            rem;
+                        }
+                    }
+                }
+                .divFormular{
+                    .row{
+                        .column{
+                            .form-control{
+                                width: 120%;
+                                border: none;
+                                border-radius: 15px;
+                                height: 3rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .divbookBas{
+                button{
+                    background-color: #B32A3A;
+                    color: white;
+                    border: none;
+                    border-radius: 30px;
+                    height: 3rem;
+                    width: 150%;
+                }
+            }
+            .titreBlog{
+                .titre-blog{
+                    font-family: "courgette";
+                    .our{
+                        color: #B32A3A;
+                        font-size: 130%;
+                    }
+                }
+            }
+            .divcardsBlog{
+                .divCards{
+                    .cards{
+                        .divimgBlog{
+                            position: relative;
+                            width: 100%;
+                            height: 19rem;
+                            .imgBlog{
+                                border: rgb(224, 221, 221) 5px solid;
+                                border-radius: 25px;
+                            
+                            }
+                            .pBlog{
+                                position: absolute;
+                                display: flex;
+                                justify-content: space-evenly;
+                                align-items: center;
+                                width: 75%;
+                                height: 3rem;
+                                bottom: 0;
+                                background-color: #B32A3A;
+                                font-size: 1.1rem;
+                                border: none;
+                                border-radius: 8px;
+                                span{
+                                    font-size: 1.4rem;
+                                }
+                            }
+                        }
+                        .pBlog{
+                            position: absolute;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+                            width: 25%;
+                            height: 2.5rem;
+                            background-color: #B32A3A;
+                            font-size: 1.1rem;
+                            span{
+                                font-size: 1.4rem;
+                            }
+                        }
+                        .petitTitre{
+                            display: flex;
+                            font-size: large;
+                        }
+                    }
+                }
+                .know{
+                    background-color: #B32A3A;
+                    color: white;
+                    border: none;
+                    border-radius: 30px;
+                    height: 3rem;
+                    width: 20%;
+
+                }
+            }
+        }
+    }    
 }
