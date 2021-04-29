@@ -16921,6 +16921,7 @@ readers do not read off random characters that represent icons */
 
 .monHeader nav {
   position: sticky;
+  top: 0;
 }
 @media (max-width: 991.98px) {
   .monHeader nav .collapse {

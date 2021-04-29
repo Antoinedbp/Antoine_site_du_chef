@@ -2,6 +2,7 @@
 
     nav{
         position: sticky;
+        top: 0;
         .collapse{
             @include media-breakpoint-down(md){
                 background: #000000ab;
